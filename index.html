@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/script.js"defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <div id="logo">
+      <h1>Headphone Collection</h1>
+    </div>
+    <div class="nav-icons">
+      <div class="cart" id="cart-btn">
+        <i class="ri-shopping-cart-2-line"></i>
+        <span id="cart-count">0</span>
+      </div>
+       <!-- //  search bar // -->    
+      <div id="search-box">
+      <input type="text" id="search" placeholder="search products">
+       <i class="ri-search-line"></i>
+      </div>
+      <i class="ri-user-3-line"></i>
+    </div>
+  </nav>
+
+    <div id="products"></div>
+      
+    <!-- // cart Items //            Cart la varum la side la athukku -->
+
+  <div id="cart-sidebar">
+    <div class="cart-header">
+      <h2>Cart Items</h2>
+      <span id="close-cart">&times;</span>
+    </div>
+      <div id="cart-items"></div>
+      <div class="cart-footer">
+        <h2> Total:$<span id="total">0</span></h2>
+        <button id="cart-close">close</button>
+      </div>
+  </div>
+</body>
+
+</html>
